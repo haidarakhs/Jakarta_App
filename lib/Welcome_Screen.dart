@@ -46,7 +46,7 @@ class WelcomeScreen extends StatelessWidget {
                   ),
                   const SizedBox(height: 10),
                   const Text(
-                    "Jakarta, ibu kota Indonesia, adalah pusat ekonomi, politik, dan budaya negara tersebut.",
+                    "Lagi nyari tempat nongkrong hits di jakarta nihh?? yang lagi viral?? ya cuman di sini aja.",
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 15,

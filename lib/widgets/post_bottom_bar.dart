@@ -1,10 +1,42 @@
 import 'package:flutter/material.dart';
 
 class PostBottomBar extends StatelessWidget {
-  const PostBottomBar({super.key});
+  PostBottomBar({super.key});
+
+  final List<Map<String, String>> bestPlace = [
+    {
+      "cityName": "Jakarta Selatan",
+      "bestPlaceName": "M Bloc Space",
+      "imagePath": "images/bloc space.jpeg",
+    },
+    {
+      "cityName": "Jakarta Barat",
+      "bestPlaceName": "Dancing Goat Coffee",
+      "imagePath": "images/dancing goat coffee.jpg",
+    },
+    {
+      "cityName": "Jakarta Pusat",
+      "bestPlaceName": "ShopHaus Menteng",
+      "imagePath": "images/shopHaus.jpeg",
+    },
+    {
+      "cityName": "Jakarta Timur",
+      "bestPlaceName": "Koffie Oetami",
+      "imagePath": "images/jaktim.jpg",
+    },
+    {
+      "cityName": "Jakarta Utara",
+      "bestPlaceName": "Hours Coffee",
+      "imagePath": "images/jakut.jpg",
+    },
+  ];
 
   @override
   Widget build(BuildContext context) {
+    // Assuming you want to display the first item in bestPlace
+    final place = bestPlace[0]; // Accessing the first item for demo purposes
+    final imagePath = place['imagePath']!;
+
     return Container(
       height: MediaQuery.of(context).size.height / 2,
       padding: const EdgeInsets.only(top: 20, left: 20, right: 20),
@@ -18,15 +50,15 @@ class PostBottomBar extends StatelessWidget {
       child: ListView(
         children: [
           Padding(
-            padding: const EdgeInsets.only(),
+            padding: const EdgeInsets.all(0),
             child: Column(
               children: [
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    const Text(
-                      "City Name, Country",
-                      style: TextStyle(
+                    Text(
+                      place['cityName']!,
+                      style: const TextStyle(
                         fontSize: 25,
                         fontWeight: FontWeight.w700,
                       ),
@@ -64,20 +96,22 @@ class PostBottomBar extends StatelessWidget {
                       child: ClipRRect(
                         borderRadius: BorderRadius.circular(20),
                         child: Image.asset(
-                          "images/city5.jpg",
+                          imagePath,
                           fit: BoxFit.cover,
-                          height: 100, // Sesuaikan tinggi gambar jika perlu
+                          height:
+                              100, // Adjust the height of the image if needed
                         ),
                       ),
                     ),
-                    const SizedBox(width: 10), // Jarak antara gambar
+                    const SizedBox(width: 10), // Space between images
                     Expanded(
                       child: ClipRRect(
                         borderRadius: BorderRadius.circular(20),
                         child: Image.asset(
-                          "images/city5.jpg",
+                          imagePath,
                           fit: BoxFit.cover,
-                          height: 100, // Sesuaikan tinggi gambar jika perlu
+                          height:
+                              100, // Adjust the height of the image if needed
                         ),
                       ),
                     ),
@@ -86,24 +120,28 @@ class PostBottomBar extends StatelessWidget {
               ],
             ),
           ),
-          SizedBox(height: 20,),
-          Expanded(child:Container(
+          const SizedBox(height: 20),
+          Container(
             alignment: Alignment.center,
             height: 90,
-            margin: EdgeInsets.only(right: 5),
+            margin: const EdgeInsets.only(right: 5),
             decoration: BoxDecoration(
               color: Colors.black,
               borderRadius: BorderRadius.circular(20),
-              image: DecorationImage(image: AssetImage("images/city5.jpg"),
-                  fit: BoxFit.cover,
-                  opacity: 0.4
-              )
+              image: DecorationImage(
+                image: AssetImage(imagePath),
+                fit: BoxFit.cover,
+                opacity: 0.4,
+              ),
             ),
-            child: Text("10++",
-            style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.w700),
+            child: const Text(
+              "10++",
+              style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 30,
+                  fontWeight: FontWeight.w700),
             ),
-          ) 
-          )
+          ),
         ],
       ),
     );
