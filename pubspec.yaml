@@ -12,7 +12,8 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.6
-  curved_navigation_bar: ^1.0.6  # Perbaikan: Tambahkan tanda titik dua (:)
+  curved_navigation_bar: ^1.0.6
+  device_preview: ^1.2.0 
 
 dev_dependencies:
   flutter_test:

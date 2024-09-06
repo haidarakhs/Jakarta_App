@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:travelapp/home_Screen.dart';
 
-
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});
 
@@ -56,9 +55,11 @@ class WelcomeScreen extends StatelessWidget {
                   const SizedBox(height: 10),
                   InkWell(
                     onTap: () {
-                      Navigator.push(context, MaterialPageRoute(
-                        builder: (context)=>HomePage(),
-                      ));
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => HomePage(),
+                          ));
                     },
                     child: Ink(
                       padding: EdgeInsets.all(15),

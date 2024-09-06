@@ -10,11 +10,11 @@
 		</data>
 		<key>flutter_assets/AssetManifest.bin</key>
 		<data>
-		6fZqptZ0squCyEEaf7eACDCW7Sc=
+		cjY3pItmnqy6Le6OyVZPkX1PRA8=
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		LZI4cLTnUOA5Ez7cAg8y22cjafI=
+		ZMtEduTwk8JA4LUDgatvyygZ8wQ=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>flutter_assets/NOTICES.Z</key>
 		<data>
-		afY+nxg/FLHd7NsYSDqhKB46sEA=
+		3z7Hxx3BPXgAdC1l/QV6UjHeRkA=
 		</data>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<data>
@@ -30,11 +30,19 @@
 		</data>
 		<key>flutter_assets/images/.DS_Store</key>
 		<data>
-		wLosE0MwIdG3TlxSQr1VbRwL1oc=
+		p6f6JCzyYaBACrhWvkXLlyeAxGQ=
 		</data>
 		<key>flutter_assets/images/SCBD.jpeg</key>
 		<data>
 		QAQVjjygA1hNwB6I5I4qpKoZ8/4=
+		</data>
+		<key>flutter_assets/images/bloc%20space.jpeg</key>
+		<data>
+		Hqn4dWY6A9ptrsPirub6h0/YZyA=
+		</data>
+		<key>flutter_assets/images/chilax.jpeg</key>
+		<data>
+		Vco+dLHs8ZOQiicKTYsIshYHMH0=
 		</data>
 		<key>flutter_assets/images/city1.jpg</key>
 		<data>
@@ -60,13 +68,33 @@
 		<data>
 		TU9Fmt/ELOTih7QuxktYUvpU81Q=
 		</data>
+		<key>flutter_assets/images/dancing%20goat%20coffee.jpg</key>
+		<data>
+		pHH2bC3Qedb7HYrCLZrXyTN49DU=
+		</data>
+		<key>flutter_assets/images/jaksel.jpeg</key>
+		<data>
+		hAtCR1Q/ckOK73P2/ICXOxMwjoU=
+		</data>
+		<key>flutter_assets/images/jaktim.jpg</key>
+		<data>
+		EjZJjp/pP7m9gttgk1vCKaiuf/Y=
+		</data>
+		<key>flutter_assets/images/jakut.jpg</key>
+		<data>
+		MQgFjZYrZVpPaqkleD7Wod6wTYc=
+		</data>
+		<key>flutter_assets/images/shopHaus.jpeg</key>
+		<data>
+		NW6omAL5vEcE9qS365ukAQOBbGc=
+		</data>
 		<key>flutter_assets/isolate_snapshot_data</key>
 		<data>
 		NOOuIrmqIJHAECyJhxYTSwmeSfs=
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		qZkeaj4Y8TdyaOihVrK/77xk7ME=
+		/fhDDyVTgVo6PljzxZuhtzrQ2EU=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -87,14 +115,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eJrHSFLnXmKvLGIMoOCj0YheyhsJz38irol930PwIPc=
+			Bf7Z/jV+U9/mRIZQ3/furh+VS7GIrB3QkFykO7xHkx8=
 			</data>
 		</dict>
 		<key>flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pzLhSZBki1IkotROGzmlRax+dNuca00adREZjYn3i8E=
+			pwLNwztbQzShk1iX0Rx5eCorcEHo/K2Wt1qycS7YxGo=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -108,7 +136,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tssal0R/QH+UaQ6/zDL818Y4NEZEx9pHAE8ZXgPb5BE=
+			PpkAcnAh6hkLoVgoU3Gv7XZNpiqmtsFR07DTNLKX5+Y=
 			</data>
 		</dict>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
@@ -123,6 +151,20 @@
 			<key>hash2</key>
 			<data>
 			ds6gFwCTYsG+W+dhDY8bDLMI8IZ1+GrxJyy4uyOsc3k=
+			</data>
+		</dict>
+		<key>flutter_assets/images/bloc%20space.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			q1SvPh7nLtnz58KBxRTHIeJ2BsZ4vu9hq0oSu8p69FA=
+			</data>
+		</dict>
+		<key>flutter_assets/images/chilax.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PrFTg5wuJ4HFwxHzPvPBbIAzBNK24OwvztFHRBWrqLk=
 			</data>
 		</dict>
 		<key>flutter_assets/images/city1.jpg</key>
@@ -167,6 +209,41 @@
 			3PcQCWvITIE6Wa2yFB9rIhdrupFMiloNeh+rhZiw1VQ=
 			</data>
 		</dict>
+		<key>flutter_assets/images/dancing%20goat%20coffee.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QKS4X1XOBkCLoW/OG/peiqLWAfVD1ZQX7sMt739i5A8=
+			</data>
+		</dict>
+		<key>flutter_assets/images/jaksel.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lf9uyNymokqv8hFnNhjBJbV5p+j17jlOBfqm///7Ulc=
+			</data>
+		</dict>
+		<key>flutter_assets/images/jaktim.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wDDN4BIDvUxmswi9odVXsLAJM/ifSEk2iFNr+DVheAQ=
+			</data>
+		</dict>
+		<key>flutter_assets/images/jakut.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nGtpT3c6u7lOqLIhJskpemPs8xYznrO4sCxN+3/ksOI=
+			</data>
+		</dict>
+		<key>flutter_assets/images/shopHaus.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WvWKRUYamIitl1UtGvBfkrgSnwzb7wtPHY1IXdir7X8=
+			</data>
+		</dict>
 		<key>flutter_assets/isolate_snapshot_data</key>
 		<dict>
 			<key>hash2</key>
@@ -178,7 +255,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			m+eGb8Qu4Aw9dHlpbblZo0ruta7cuPhayXlGovGiq+o=
+			d9r0Uv+7AXDfMrUFJaGdaRPVyM8hPjJIiqxOJxT+3s8=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
