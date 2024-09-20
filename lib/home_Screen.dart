@@ -14,27 +14,27 @@ class HomePage extends StatelessWidget {
     {
       "cityName": "Jakarta Selatan",
       "bestPlaceName": "M Bloc Space",
-      "imagePath": "images/bloc space.jpeg",
+      "imagePath": "images/city1.jpg",
     },
     {
       "cityName": "Jakarta Barat",
       "bestPlaceName": "Dancing Goat Coffe",
-      "imagePath": "images/dancing goat coffee.jpg",
+      "imagePath": "images/city2.jpg",
     },
     {
       "cityName": "Jakarta Pusat",
       "bestPlaceName": "ShopHaus Menteng",
-      "imagePath": "images/shopHaus.jpeg",
+      "imagePath": "images/city3.jpg",
     },
     {
       "cityName": "Jakarta Timur",
       "bestPlaceName": "Koffie Oetami",
-      "imagePath": "images/jaktim.jpg",
+      "imagePath": "images/city4.jpg",
     },
     {
       "cityName": "Jakarta Utara",
       "bestPlaceName": "Hours Coffee",
-      "imagePath": "images/jakut.jpg",
+      "imagePath": "images/city5.jpg",
     },
   ];
 
