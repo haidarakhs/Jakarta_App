@@ -33,8 +33,8 @@ class PostBottomBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Assuming you want to display the first item in bestPlace
-    final place = bestPlace[0]; // Accessing the first item for demo purposes
+    // Menggunakan item pertama sebagai contoh
+    final place = bestPlace[0]; // Mengambil item pertama untuk demo
     final imagePath = place['imagePath']!;
 
     return Container(
@@ -82,41 +82,14 @@ class PostBottomBar extends StatelessWidget {
                 ),
                 const SizedBox(height: 20),
                 const Text(
-                  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
+                  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
                   style: TextStyle(
                     color: Colors.black54,
                   ),
                   textAlign: TextAlign.center,
                 ),
                 const SizedBox(height: 20),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Expanded(
-                      child: ClipRRect(
-                        borderRadius: BorderRadius.circular(20),
-                        child: Image.asset(
-                          imagePath,
-                          fit: BoxFit.cover,
-                          height:
-                              100, // Adjust the height of the image if needed
-                        ),
-                      ),
-                    ),
-                    const SizedBox(width: 10), // Space between images
-                    Expanded(
-                      child: ClipRRect(
-                        borderRadius: BorderRadius.circular(20),
-                        child: Image.asset(
-                          imagePath,
-                          fit: BoxFit.cover,
-                          height:
-                              100, // Adjust the height of the image if needed
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
+               
               ],
             ),
           ),
@@ -129,7 +102,7 @@ class PostBottomBar extends StatelessWidget {
               color: Colors.black,
               borderRadius: BorderRadius.circular(20),
               image: DecorationImage(
-                image: AssetImage(imagePath),
+                image: AssetImage(imagePath), // Menggunakan variabel imagePath
                 fit: BoxFit.cover,
                 opacity: 0.4,
               ),
